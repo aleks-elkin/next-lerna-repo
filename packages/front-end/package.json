@@ -1,14 +1,14 @@
 {
-  "name": "front-end",
+  "name": "@aleksandr.elkin/next-lerna-repo.front-end",
   "version": "0.1.0",
-  "private": true,
+  "author": "Aleksandr Elkin <aleksandr.elkin@tradeshift.com>",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
   },
   "dependencies": {
-    "components": "file:../components",
+    "@aleksandr.elkin/next-lerna-repo.components": "file:../components",
     "next": "^9.3.6",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"

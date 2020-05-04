@@ -1,8 +1,8 @@
 {
-  "name": "components",
-  "version": "0.0.0",
+  "name": "@aleksandr.elkin/next-lerna-repo.components",
+  "version": "0.1.0",
   "description": "React.js components library",
-  "author": "Nirmalya Ghosh <nirmalya.email@gmail.com>",
+  "author": "Aleksandr Elkin <aleksandr.elkin@tradeshift.com>",
   "homepage": "",
   "license": "MIT",
   "main": "dist/index.js",

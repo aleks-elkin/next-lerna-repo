@@ -1,5 +1,6 @@
 {
-  "name": "@elkin/next-lerna-repo",
+  "name": "@aleksandr.elkin/next-lerna-repo",
+  "version": "0.1.0",
   "license": "MIT",
   "author": "Aleksandr Elkin <aleksandr.elkin@tradeshift.com>",
   "description": "Test lerna with next.js and react",
@@ -17,7 +18,16 @@
     "start": "npx lerna run dev --scope front-end"
   },
   "dependencies": {
-    "components": "file:packages/components",
-    "front-end": "file:packages/front-end"
-  }
+    "@aleksandr.elkin/next-lerna-repo.components": "file:packages/components",
+    "@aleksandr.elkin/next-lerna-repo.front-end": "file:packages/front-end"
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleks-elkin/next-lerna-repo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aleks-elkin/next-lerna-repo/issues"
+  },
+  "homepage": "https://github.com/aleks-elkin/next-lerna-repo#readme"
 }
