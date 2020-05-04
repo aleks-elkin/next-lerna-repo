@@ -23,6 +23,9 @@
     "@emotion/core": "^10.0.28",
     "@emotion/styled": "^10.0.27"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/aleks-elkin/next-lerna-repo.git",
