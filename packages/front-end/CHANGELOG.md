@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/aleks-elkin/next-lerna-repo/compare/v0.2.0...v0.2.1) (2020-05-04)
+
+
+### Bug Fixes
+
+* fixed package json publish config ([17ae04d](https://github.com/aleks-elkin/next-lerna-repo/commit/17ae04d25f7f79b7e8ada9c0426ede6a9d32e9e2))
+
+
+
+
+
 # 0.2.0 (2020-05-04)
 
 
