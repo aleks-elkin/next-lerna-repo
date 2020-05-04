@@ -15,7 +15,8 @@
     "microbundle": "^0.11.0"
   },
   "scripts": {
-    "start": "npx lerna run dev --scope front-end"
+    "start": "npx lerna run dev --scope front-end",
+    "release": "lerna publish --conventional-commits"
   },
   "dependencies": {
     "@aleksandr.elkin/next-lerna-repo.components": "file:packages/components",
@@ -25,6 +26,9 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/aleks-elkin/next-lerna-repo.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "bugs": {
     "url": "https://github.com/aleks-elkin/next-lerna-repo/issues"
