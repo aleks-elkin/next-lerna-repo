@@ -1,6 +1,8 @@
 {
   "name": "@elkin/next-lerna-repo",
-  "private": false,
+  "license": "MIT",
+  "author": "Aleksandr Elkin <aleksandr.elkin@tradeshift.com>",
+  "description": "Test lerna with next.js and react",
   "devDependencies": {
     "@babel/core": "^7.8.7",
     "@storybook/addon-actions": "^5.3.14",
