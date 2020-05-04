@@ -1,6 +1,6 @@
 {
   "name": "@aleksandr.elkin/next-lerna-repo.front-end",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "author": "Aleksandr Elkin <aleksandr.elkin@tradeshift.com>",
   "scripts": {
     "dev": "next dev",
