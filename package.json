@@ -11,6 +11,9 @@
     "lerna": "^3.20.2",
     "microbundle": "^0.11.0"
   },
+  "scripts": {
+    "start": "npx lerna run dev --scope front-end"
+  },
   "dependencies": {
     "components": "file:packages/components",
     "front-end": "file:packages/front-end"
